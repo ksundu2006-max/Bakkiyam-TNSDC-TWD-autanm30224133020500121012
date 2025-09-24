@@ -1,0 +1,131 @@
+/* General Page Styling */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+/* Main Banking Container */
+
+.bank-container {
+
+    background: #fff;
+
+    width: 400px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+
+    text-align: center;
+
+}
+
+/* Heading */
+
+.bank-container h1 {
+
+    color: #2c3e50;
+
+    margin-bottom: 20px;
+
+}
+
+/* Account Balance Display */
+
+.balance-box {
+
+    background: #f1f1f1;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #27ae60;
+
+    margin-bottom: 20px;
+
+}
+
+/* Input Fields */
+
+input[type="number"], input[type="text"] {
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin: 10px 0;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+}
+
+/* Buttons */
+
+button {
+
+    width: 45%;
+
+    padding: 10px;
+
+    margin: 5px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+button.deposit {
+
+    background: #27ae60;
+
+    color: white;
+
+}
+
+button.withdraw {
+
+    background: #e74c3c;
+
+    color: white;
+
+}
+
+button:hover {
+
+    opacity: 0.8;
+
+}
